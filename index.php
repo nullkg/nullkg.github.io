@@ -53,8 +53,8 @@
             <div class="container">
                 <!-- logo -->
                 <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" title="Help hand" />
-							<h1>Zhardam</h1><span>Телефон: 0 555 222 333</span></a>
+                    <a href="index.html"><img src="images/logo4.png" title="Help hand" />
+                        <div><h1>Zhardam</h1><span>Телефон: 0 555 222 333</span></div></a>
                 </div>
                 <!-- /logo -->
                 <!-- top-nav -->
@@ -106,10 +106,10 @@
     </div>
     <div class="banner">
         <div class="slider-caption">
-            <h2>Помогите детям</h2>
-            <p> Дети нуждаются в помощи </p>
+            <h2>Мы помогаем</h2>
             <div class="learn-button">
-                <a class="slide-btn" href="#">Сделать пожертвование чейчас</a>
+                <a class="slide-btn" href="#">Хочу помочь</a>
+                <a class="slide-btn" href="#">Нуждаюсь в помощи</a>
             </div>
         </div>
     </div>
@@ -187,12 +187,14 @@
                     <p>It is a long established fact that a reader will be distracted by the readable </p>
                     <a class="view-btn" href="#">Смотреть</a>
                 </div>
+<!--
                 <div class="col-md-4 part-grid">
                     <i class="icon2"> </i>
                     <h3>Юридическая помощь</h3>
                     <p>It is a long established fact that a reader will be distracted by the readable </p>
                     <a class="view-btn" href="#">Смотреть</a>
                 </div>
+-->
                 <div class="col-md-4 part-grid">
                     <i class="icon3"> </i>
                     <h3>Волонтерство</h3>
@@ -202,24 +204,28 @@
                 <div class="clearfix"> </div>
             </div>
             <div class="part-grids">
+<!--
                 <div class="col-md-4 part-grid">
                     <i class="icon4"> </i>
                     <h3>Психологическая помощь</h3>
                     <p>It is a long established fact that a reader will be distracted by the readable </p>
                     <a class="view-btn" href="#">Смотреть</a>
                 </div>
+-->
                 <div class="col-md-4 part-grid">
                     <i class="icon5"> </i>
                     <h3>Моральная помощь</h3>
                     <p>It is a long established fact that a reader will be distracted by the readable </p>
                     <a class="view-btn" href="#">Смотреть</a>
                 </div>
+<!--
                 <div class="col-md-4 part-grid">
                     <i class="icon6"> </i>
                     <h3>Финансовая помощь</h3>
                     <p>It is a long established fact that a reader will be distracted by the readable </p>
                     <a class="view-btn" href="#">Смотреть</a>
                 </div>
+-->
                 <div class="clearfix"> </div>
             </div>
         </div>

@@ -11,7 +11,7 @@ body{
 /*-- header --*/
 .header {
 	padding:2.2em 0;
-	background: #bd9260;
+	background: #F5FFFA;
 }
 
 span.menu{
@@ -37,7 +37,7 @@ span.menu{
 	font-weight:400;
 	font-size:1em;
 	text-decoration:none;
-	color:#fff;
+	color:#9ED4EA;
 	text-transform: uppercase;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
@@ -50,27 +50,42 @@ span.menu{
 	 font-family: 'Arimo', sans-serif;
 }
 .top-nav ul li a:hover,.top-nav ul li.active a{
-	color:#a7d5ec;
+	color: #CD5C5C;
 
 }
 .logo{
 	float: left;
 position: absolute;
 top: -2px;
-background: #a7d5ec;
-padding: 0em 0em 2em 0.2em;
+background: ;
+padding: 0em 0ergba( 189, 234, 219, 0 )m 2em 0.2em;
+    height: 80px;
+/*    width: 500px;*/
 }
 .logo a{
 	text-decoration: none;
 }
 .logo a  h1 {
+    float: left;
+    display: block;
 	font-weight: 600;
 	font-size:1.6em;
 	text-decoration: none;
 	color: #e8792d;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
+    position: relative;
+    top: 0;
 	margin:5px 20px 10px 20px;
+}
+.logo a div{
+    height: 80px;
+    width: 150px;
+}
+.logo a img{
+    position: relative;
+    left: 0;
+    height: 80px;
 }
 .logo span {
 	font-weight:300;
@@ -78,7 +93,7 @@ font-size: 0.9em;
 text-decoration: none;
 color: #fff;
 text-align: center;
-margin:0px 20px;
+margin:0px 0;
 font-family:'Arimo', sans-serif;
 }
 /*----slider----*/
