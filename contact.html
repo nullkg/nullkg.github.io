@@ -1,17 +1,22 @@
+
 <!DOCTYPE HTML>
 <html>
 
 <head>
-    <title>The HelpHand bootstrap Website Template |contact :: w3layouts</title>
+    <title>Благотворительный сайт</title>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <!-- Custom Theme files -->
-    <link href="css/style.css" rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link href="/css/style.css" rel='stylesheet' type='text/css' />
+    <link href="/css/mobile.css" rel='stylesheet' type='text/css' />
+    <link href="/images/logo4.png" rel="icon" />
+    <link rel="stylesheet" type="text/css" href="/css/magnific-popup.css">
     <!-- Custom Theme files -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="application/x-javascript">
         addEventListener("load", function() {
             setTimeout(hideURLbar, 0);
@@ -22,10 +27,11 @@
         }
 
     </script>
-    <!--start-smoth-scrolling-->
-    <script type="text/javascript" src="js/move-top.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
 
+    <!--start-smoth-scrolling-->
+    <script type="text/javascript" src="/js/move-top.js"></script>
+    <script type="text/javascript" src="/js/easing.js"></script>
+    <script type="text/javascript" src="/js/password-confirm.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".scroll").click(function(event) {
@@ -47,24 +53,27 @@
 
 <body>
     <!-- header -->
-    <div class="what">
-        <div class="header">
-            <div class="container">
-                <!-- logo -->
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo.png" title="Help hand" />
-							<h1>Help Hand</h1><span>Help-Line: +01 000 000 0</span></a>
-                </div>
-                <!-- /logo -->
-                <!-- top-nav -->
-                <div class="top-nav">
+   <div class="what"> 
+    <div id="wrapper">
+     <div class="header">
+         <div class="container">
+             <!-- logo -->
+             <div class="logo">
+
+                 <a href="/"><img src="/images/logo4.png" title="Help hand" />
+
+                     <div><h1>Биримдик</h1></div></a>
+             </div>
+             <!-- /logo -->
+             <!-- top-nav -->
+                <div class="top-nav" id="nav">
                     <span class="menu"> </span>
                     <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="publications.html">Объявления</a></li>
-                        <li><a href="companies.html">Организации</a></li>
-                        <li class="active"><a href="contact.html">Контакты</a></li>
-                        <li><a href="what.html">О нас</a></li>
+                        <li  ><a href="/">Главная</a></li>
+                        <li ><a href="/publications">Объявления</a></li>
+                        <li ><a href="/organizations">Организации</a></li>
+                        <li  class="active" ><a href="/contact">Контакты</a></li>
+<!--                        <li ><a href="/about">О нас</a></li>-->
                         <div class="clearfix"> </div>
                     </ul>
                 </div>
@@ -72,50 +81,81 @@
                 <div class="search-box">
                     <div id="sb-search" class="sb-search">
                         <form>
-                            <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+                            <input class="sb-search-input" placeholder="Введите запрос..." type="search" name="search" id="search">
                             <input class="sb-search-submit" type="submit" value="">
                             <span class="sb-icon-search"> </span>
                         </form>
                     </div>
                 </div>
                 <!-- search-scripts -->
-                <script src="js/classie.js"></script>
-                <script src="js/uisearch.js"></script>
+                <script src="/js/classie.js"></script>
+                <script src="/js/uisearch.js"></script>
                 <script>
                     new UISearch(document.getElementById('sb-search'));
 
                 </script>
                 <!-- //search-scripts -->
+
+                <div class="sign-box">
+                  
+                    <a href="/users/register"><div id="sb-sign" class="sb-sign">
+                       Регистрация
+                        </div></a>
+                        <a href="/users/auth"><div id="sb-sign" class="sb-sign">
+                           Войти
+                            </div></a>
+                            
+                </div>
+
                 <div class="clearfix"></div>
             </div>
-        </div>
-        <!-- script-for-nav -->
-        <script>
-            $(document).ready(function() {
-                $("span.menu").click(function() {
-                    $(".top-nav ul").slideToggle(300);
-                });
-            });
 
-        </script>
-        <!-- script-for-nav -->
-        <!-- /top-nav -->
-        <div class="clearfix"> </div>
+            <!-- script-for-nav -->
+            <script>
+                $(document).ready(function() {
+                    $("span.menu").click(function() {
+                        $(".top-nav ul").slideToggle(300);
+                    });
+                });
+
+            </script>
+            <!-- script-for-nav -->
+            <!-- /top-nav -->
+            <div class="clearfix"> </div>
+        </div>
+
+            <!-- script-for-nav -->
+            <script>
+                $(document).ready(function() {
+                    $("span.menu").click(function() {
+                        $(".top-nav ul").slideToggle(300);
+                    });
+                });
+
+            </script>
+            <!-- script-for-nav -->
+            <!-- /top-nav -->
+            <div class="clearfix"> </div>
+        </div>
     </div>
+
     <!-- /header -->
+    <!-- slider -->
+    <!--/start-services-->
+    
     <div class="contact">
         <div class="container">
 
 
             <div class="contact-section">
-                <h3>Contact Us </h3>
+                <h3>Свяжитесь с нами</h3>
                 <form>
-                    <input type="text" class="text" value="Enter Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Name';}">
-                    <input type="text" class="text" value="Enter Mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Mail';}">
-                    <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
-                    <textarea onfocus="if(this.value == 'Enter Message...') this.value='';" onblur="if(this.value == '') this.value='Enter Message';">Enter Message...</textarea>
+                    <input type="text" class="text" value="Имя" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Имя';}">
+                    <input type="text" class="text" value="Почта" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Почта';}">
+                    <input type="text" class="text" value="Телефон" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Телефон';}">
+                    <textarea onfocus="if(this.value == 'Ваше сообщение...') this.value='';" onblur="if(this.value == '') this.value='Enter Message';">Ваше сообщение...</textarea>
                     <div class="clearfix"> </div>
-                    <input type="submit" value="SEND MESSAGE">
+                    <input type="submit" value="Отправить">
                 </form>
             </div>
         </div>
@@ -123,22 +163,20 @@
     <div class="contact-map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1578265.0941403757!2d-98.9828708842255!3d39.41170802696131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1407515822047"> </iframe>
     </div>
-    
-
-    <!--strat-image-cursuals-->
+ 
     <div class="scroll-slider">
         <div class="container">
             <div class="nbs-flexisel-container">
                 <div class="nbs-flexisel-inner">
                     <ul class="flexiselDemo3 nbs-flexisel-ul" style="left: -253.6px; display: block;">
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s1.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s4.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s2.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s3.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s4.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s1.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s2.png"></li>
-                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="images/s2.png"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s1.png"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s4.jpg"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s2.jpg"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s3.png"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s4.jpg"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s1.png"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s2.jpg"></li>
+                        <li onclick="location.href='#';" class="nbs-flexisel-item" style="width: 253.6px;"><img src="/images/s5.jpg"></li>
                     </ul>
                     <div class="nbs-flexisel-nav-left" style="top: 21.5px;"></div>
                     <div class="nbs-flexisel-nav-right" style="top: 21.5px;"></div>
@@ -146,7 +184,7 @@
             </div>
             <div class="clear"> </div>
             <!--strat-image-cursuals-->
-            <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+            <script type="text/javascript" src="/js/jquery.flexisel.js"></script>
             <!--End-image-cursuals-->
             <script type="text/javascript">
                 $(window).load(function() {
@@ -177,31 +215,32 @@
             </script>
         </div>
     </div>
-
     <!--/start-footer-->
     <div class="footer">
         <div class="container">
 
             <div class="footer-grids">
                 <div class="col-md-4 footer-grid-icons">
-                    <h3>Follow Us:</h3>
+                    <h3>Следите за нами:</h3>
                     <ul>
                         <li><a class="twitter" href="#"><span> </span></a></li>
                         <li><a class="fb" href="#"><span> </span></a></li>
                         <li><a class="you" href="#"><span> </span></a></li>
-                        <li><a class="in" href="#"><span> </span></a></li>
                         <div class="clearfix"> </div>
                     </ul>
                 </div>
                 <div class="col-md-4 footer-grid-text">
-                    <h3>Join our news letter</h3>
-                    <p>Lorem Ipsum is simply dummy text of theprinting and typesetting industry.</p>
-                    form method="post" action="contact-post.html">
-                    <a class="sign-btn" href="signup.html">Sign up</a>
+                    <h3>Подпишитесь на наши новости</h3>
+                    <a class="sign-btn" href="/register.html">Подписаться</a>
                 </div>
                 <div class="col-md-4 copy-right">
-                    <p>&copy; Design by &nbsp;<a href="http://w3layouts.com">W3Layouts</a></p>
+                    <p>&copy; Все права защищены &nbsp;</p>
                 </div>
+                <script src="/js/jquery.dropotron.min.js"></script>
+            <script src="/js/skel.min.js"></script>
+            <script src="/js/skel-viewport.min.js"></script>
+            <script src="/js/util.js"></script>
+            <script src="/js/main.js"></script>
                 <div class="clearfix"> </div>
             </div>
         </div>
@@ -210,13 +249,13 @@
     <script type="text/javascript">
         $(document).ready(function() {
             /*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
+                                        var defaults = {
+                                            containerID: 'toTop', // fading element id
+                                            containerHoverID: 'toTopHover', // fading element hover id
+                                            scrollSpeed: 1200,
+                                            easingType: 'linear'
+                                        };
+                                        */
 
             $().UItoTop({
                 easingType: 'easeOutQuart'
@@ -225,7 +264,9 @@
         });
 
     </script>
+    
     <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
 </body>
 
 </html>
